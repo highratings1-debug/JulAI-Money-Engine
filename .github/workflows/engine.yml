@@ -29,6 +29,14 @@ jobs:
         run: python auto_prospector.py --cloud
         continue-on-error: true
 
+      - name: Run Reddit Monitor
+        run: python reddit_monitor.py --cloud
+        continue-on-error: true
+
+      - name: Run Upwork Monitor
+        run: python upwork_monitor.py --cloud
+        continue-on-error: true
+
       - name: Run Money Daemon
         env:
           JULAI_EMAIL: ${{ secrets.JULAI_EMAIL }}
@@ -40,6 +48,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add prospects.csv email_sent_log.csv daemon_status.json
-          git commit -m "Auto-update database" || echo "No changes to commit"
+          git add prospects.csv email_sent_log.csv daemon_status.json reddit_leads.md upwork_proposals.md reddit_seen.json upwork_seen.json || true
+          git commit -m "Auto-update database and leads" || echo "No changes to commit"
           git push
