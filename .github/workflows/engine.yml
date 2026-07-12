@@ -1,0 +1,45 @@
+name: JulAI Forever Engine
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Run every 30 minutes
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  run-engine:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install ddgs beautifulsoup4 requests
+
+      - name: Run Auto-Prospector
+        run: python auto_prospector.py --cloud
+        continue-on-error: true
+
+      - name: Run Money Daemon
+        env:
+          JULAI_EMAIL: ${{ secrets.JULAI_EMAIL }}
+          JULAI_EMAIL_PASSWORD: ${{ secrets.JULAI_EMAIL_PASSWORD }}
+        run: python money_daemon.py --cloud
+        continue-on-error: true
+
+      - name: Commit Database Updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add prospects.csv email_sent_log.csv daemon_status.json
+          git commit -m "Auto-update database" || echo "No changes to commit"
+          git push

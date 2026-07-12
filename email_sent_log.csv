@@ -1,0 +1,83 @@
+date,email,name,company,industry,status
+2026-07-11 13:59,admin@mauricedental.com,Maurice Dental,Maurice Dental Clinic,dental,sent
+2026-07-11 14:02,info@wondersdentistry.com,Wonders Dentistry,Wonders Dentistry,dental,sent
+2026-07-11 14:05,info@lmg.ae,Liberty Dental,Liberty Dental Clinic,dental,sent
+2026-07-11 14:08,avancedentaldubai@gmail.com,Avance Dental,Avance Dental Clinic,dental,sent
+2026-07-11 14:11,info@dentalcareclinic.ae,Dental Care Clinic,Dental Care Clinic,dental,sent
+2026-07-11 14:14,jumeirah@dentistree.ae,DentisTree,DentisTree Jumeirah,dental,sent
+2026-07-11 14:17,info@precisiondentalclinic.ae,Precision Dental,Precision Dental Clinic,dental,sent
+2026-07-11 14:21,info@espace.ae,Espace Real Estate,Espace Real Estate,real estate,failed: Connection unexpectedly closed: The read operation timed out
+2026-07-12 01:13,info@dentalcareegypt.com,Dental Care Egypt,Dental Care Egypt,dental,sent
+2026-07-12 01:16,info@almeswak.com,AlMeswak Medical,AlMeswak Medical Group,dental,sent
+2026-07-12 01:19,info@HorizonDent.com,Horizon Dental,Horizon Dental Center,dental,sent
+2026-07-12 01:22,info@obeidhospitals.com,Obeid Hospital,Obeid Specialized Hospital,dental,sent
+2026-07-12 01:25,info@stylishsmile.com,Smile Design,Smile Design Dental,dental,sent
+2026-07-12 01:28,info@aquadentistry.com,AQUA Dent,AQUA Dent Clinics,dental,sent
+2026-07-12 01:31,madina-road-dental@magrabi.com.sa,Magrabi Dental,Magrabi Health Dental,dental,sent
+2026-07-12 01:34,info@tamdental.sa,TAM Dental,TAM Dental,dental,sent
+2026-07-12 01:37,hello@element-realestate.com,Element Real Estate,Element Real Estate,real estate,sent
+2026-07-12 01:40,info@theaddress-eg.com,The Address,The Address Consultancy,real estate,sent
+2026-07-12 01:43,info@platinum-egypt.com,Platinum Properties,Platinum Properties Egypt,real estate,sent
+2026-07-12 01:46,info@egyproperty-eg.com,EgyProperty,EgyProperty,real estate,sent
+2026-07-12 01:49,Sales@chancesrealestate.com,Chances RE,Chances Real Estate,real estate,sent
+2026-07-12 01:52,Realestate@egyptrealtor.com,Egypt Realtor,Egypt Realtor,real estate,sent
+2026-07-12 01:55,info@sizzleregypt.com,Sizzler Egypt,Sizzler Steakhouse Egypt,restaurant,sent
+2026-07-12 01:58,customerservice@cilantrocafe.net,Cilantro Cafe,Cilantro Cafe,restaurant,sent
+2026-07-12 02:01,marketing@lapoire.net,La Poire,La Poire Group,restaurant,sent
+2026-07-12 02:04,sales@peking-eg.com,Peking Restaurant,Peking Restaurant,restaurant,sent
+2026-07-12 02:07,info@cheersegypt.com,Cheers Egypt,Cheers Egypt,restaurant,sent
+2026-07-12 02:10,contactcentre@altayer-motors.com,Al Tayer Motors,Al Tayer Motors,car dealership,sent
+2026-07-12 09:54,bmw@agmc.ae,AGMC BMW,AGMC BMW Dubai,car dealership,failed: Server not connected
+2026-07-12 09:57,info@autodealsuae.com,Auto Deals UAE,Auto Deals UAE,car dealership,failed: please run connect() first
+2026-07-12 10:00,info@maestro-motors.com,Maestro Motors,Maestro Motors Dubai,car dealership,failed: please run connect() first
+2026-07-12 10:03,info@rasealmotors.com,Raseal Motors,Raseal Motors Dubai,car dealership,failed: please run connect() first
+2026-07-12 11:03,Info@excellage.ae,Excellage Medical Spa,Excellage Medical Spa,dental,sent
+2026-07-12 11:06,info@aacsh.com,American Academy of Cosmetic Surgery,AACSH Dubai,dental,failed: Server not connected
+2026-07-12 11:09,info@msc-dubai.com,Medical Specialists Centre,Medical Specialists Centre,dental,failed: please run connect() first
+2026-07-12 11:12,bionixalbarsha@gmail.com,Bionix Medspa,Bionix Medspa,dental,failed: please run connect() first
+2026-07-12 11:15,info@remedmanagement.com,ReMed Medical,ReMed Medical Cavallo,dental,failed: please run connect() first
+2026-07-12 11:18,hello@jmedclinic.com,JMED Clinic,JMED Clinic Dubai,dental,failed: please run connect() first
+2026-07-12 11:21,info@ifeelspainternational.com,I Feel Spa,I Feel Spa Dubai,dental,failed: please run connect() first
+2026-07-12 11:24,info@palmclinics.com,Palm Clinics,Palm Clinics Riyadh,dental,failed: please run connect() first
+2026-07-12 11:27,hello@the-clinics.com,The Clinics Riyadh,The Clinics Riyadh,dental,failed: please run connect() first
+2026-07-12 11:30,info@mayamaesthetics.com.sa,Mayam Aesthetics,Mayam Aesthetics,dental,failed: please run connect() first
+2026-07-12 11:33,info@royalclinicsaudia.com,Royal Clinic Saudia,Royal Clinic Saudia,dental,failed: please run connect() first
+2026-07-12 11:36,admin@doraclinic.sa,Dora Clinics,Dora Clinics Riyadh,dental,failed: please run connect() first
+2026-07-12 11:39,info@quintessentiallyestates.com,Quintessentially Estates,Quintessentially Estates,real estate,failed: please run connect() first
+2026-07-12 11:42,info@regent-property.com,Regent Property,Regent Property London,real estate,failed: please run connect() first
+2026-07-12 11:45,info@elegantpropertygroup.co.uk,Elegant Property,Elegant Property Group,real estate,failed: please run connect() first
+2026-07-12 11:48,sales@crownluxuryhomes.com,Crown Luxury Homes,Crown Luxury Homes,real estate,failed: please run connect() first
+2026-07-12 11:51,enquiries@luxurypropertypartners.co.uk,Luxury Property Partners,Luxury Property Partners,real estate,failed: please run connect() first
+2026-07-12 11:54,hello@luxuryproperty.com,LuxuryProperty Dubai,LuxuryProperty.com,real estate,failed: please run connect() first
+2026-07-12 13:04,info@espace.ae,Espace Real Estate,Espace Real Estate,real estate,"failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+2026-07-12 13:07,bmw@agmc.ae,AGMC BMW,AGMC BMW Dubai,car dealership,sent
+2026-07-12 13:10,info@autodealsuae.com,Auto Deals UAE,Auto Deals UAE,car dealership,sent
+2026-07-12 13:13,info@maestro-motors.com,Maestro Motors,Maestro Motors Dubai,car dealership,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 13:16,info@rasealmotors.com,Raseal Motors,Raseal Motors Dubai,car dealership,sent
+2026-07-12 13:19,info@aacsh.com,American Academy of Cosmetic Surgery,AACSH Dubai,dental,sent
+2026-07-12 13:22,info@msc-dubai.com,Medical Specialists Centre,Medical Specialists Centre,dental,sent
+2026-07-12 13:25,bionixalbarsha@gmail.com,Bionix Medspa,Bionix Medspa,dental,sent
+2026-07-12 13:28,info@remedmanagement.com,ReMed Medical,ReMed Medical Cavallo,dental,sent
+2026-07-12 13:40,hello@jmedclinic.com,JMED Clinic,JMED Clinic Dubai,dental,sent
+2026-07-12 13:43,info@ifeelspainternational.com,I Feel Spa,I Feel Spa Dubai,dental,sent
+2026-07-12 13:46,info@palmclinics.com,Palm Clinics,Palm Clinics Riyadh,dental,sent
+2026-07-12 13:49,hello@the-clinics.com,The Clinics Riyadh,The Clinics Riyadh,dental,sent
+2026-07-12 13:52,info@mayamaesthetics.com.sa,Mayam Aesthetics,Mayam Aesthetics,dental,sent
+2026-07-12 13:55,info@royalclinicsaudia.com,Royal Clinic Saudia,Royal Clinic Saudia,dental,sent
+2026-07-12 13:58,admin@doraclinic.sa,Dora Clinics,Dora Clinics Riyadh,dental,sent
+2026-07-12 14:01,info@quintessentiallyestates.com,Quintessentially Estates,Quintessentially Estates,real estate,sent
+2026-07-12 14:04,info@regent-property.com,Regent Property,Regent Property London,real estate,sent
+2026-07-12 14:07,info@elegantpropertygroup.co.uk,Elegant Property,Elegant Property Group,real estate,sent
+2026-07-12 14:10,sales@crownluxuryhomes.com,Crown Luxury Homes,Crown Luxury Homes,real estate,sent
+2026-07-12 14:14,enquiries@luxurypropertypartners.co.uk,Luxury Property Partners,Luxury Property Partners,real estate,"failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
+2026-07-12 14:17,hello@luxuryproperty.com,LuxuryProperty Dubai,LuxuryProperty.com,real estate,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 14:17,info@espace.ae,Espace Real Estate,Espace Real Estate,real estate,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 14:20,info@maestro-motors.com,Maestro Motors,Maestro Motors Dubai,car dealership,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 14:23,enquiries@luxurypropertypartners.co.uk,Luxury Property Partners,Luxury Property Partners,real estate,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 14:26,hello@luxuryproperty.com,LuxuryProperty Dubai,LuxuryProperty.com,real estate,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 14:26,info@espace.ae,Espace Real Estate,Espace Real Estate,real estate,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 14:29,info@maestro-motors.com,Maestro Motors,Maestro Motors Dubai,car dealership,failed: [Errno 11001] getaddrinfo failed
+2026-07-12 14:32,enquiries@luxurypropertypartners.co.uk,Luxury Property Partners,Luxury Property Partners,real estate,sent
+2026-07-12 14:35,hello@luxuryproperty.com,LuxuryProperty Dubai,LuxuryProperty.com,real estate,sent
+2026-07-12 14:35,info@espace.ae,Espace Real Estate,Espace Real Estate,real estate,sent
+2026-07-12 14:38,info@maestro-motors.com,Maestro Motors,Maestro Motors Dubai,car dealership,sent
