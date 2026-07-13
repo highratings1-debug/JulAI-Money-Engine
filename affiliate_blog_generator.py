@@ -11,7 +11,7 @@ KEYWORDS = [
     "Highest paying AI affiliate programs"
 ]
 
-OUTPUT_DIR = "blog_posts"
+OUTPUT_DIR = "docs/_posts"
 
 def generate_blog_post(keyword):
     print(f"[*] Generating SEO blog post for: {keyword}")
@@ -24,13 +24,17 @@ def generate_blog_post(keyword):
     - 3-5 product recommendations or strategies
     - Places where the user can insert their affiliate link (write [INSERT AFFILIATE LINK HERE])
     - A strong conclusion encouraging purchase
-    Format it in beautiful Markdown.
+    Format it in beautiful Markdown. Do NOT wrap the entire response in a markdown code block, just output the raw markdown.
     """
     
     try:
-        # DDGS chat uses free web LLMs internally without API keys!
         results = DDGS().chat(prompt, model='gpt-4o-mini')
-        return results
+        
+        # Add Jekyll Frontmatter
+        date_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        frontmatter = f"---\nlayout: post\ntitle:  \"{keyword}\"\ndate:   {date_str}\ncategories: ai review\n---\n\n"
+        
+        return frontmatter + results
     except Exception as e:
         print(f"[!] Error generating blog: {e}")
         return None
@@ -44,8 +48,18 @@ def main():
     print("="*50)
     
     for kw in KEYWORDS:
-        filename = f"{OUTPUT_DIR}/{kw.replace(' ', '_').lower()}.md"
-        if os.path.exists(filename):
+        date_prefix = datetime.now().strftime('%Y-%m-%d')
+        safe_kw = kw.replace(' ', '-').replace(',', '').lower()
+        filename = f"{OUTPUT_DIR}/{date_prefix}-{safe_kw}.md"
+        
+        # Check if we already wrote a post for this keyword
+        already_written = False
+        for f in os.listdir(OUTPUT_DIR):
+            if safe_kw in f:
+                already_written = True
+                break
+                
+        if already_written:
             continue # Skip if already written
             
         content = generate_blog_post(kw)
@@ -54,7 +68,6 @@ def main():
                 f.write(content)
             print(f"[+] Successfully wrote: {filename}")
             
-        # If running in cloud, do one per run to avoid rate limits
         if "--cloud" in __import__("sys").argv:
             print("[*] Cloud mode enabled. Exiting after 1 article.")
             break

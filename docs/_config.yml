@@ -1,0 +1,6 @@
+title: AI Automation Authority
+description: The internet's #1 source for automated money-making strategies, AI tool reviews, and agency setups.
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
