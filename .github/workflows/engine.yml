@@ -27,22 +27,27 @@ jobs:
 
       - name: Run YouTube Shorts Generator
         run: python youtube_shorts_generator.py --cloud
+        timeout-minutes: 5
         continue-on-error: true
 
       - name: Run Affiliate Blog Generator
         run: python affiliate_blog_generator.py --cloud
+        timeout-minutes: 5
         continue-on-error: true
 
       - name: Run Auto-Prospector
         run: python auto_prospector.py --cloud
+        timeout-minutes: 5
         continue-on-error: true
 
       - name: Run Reddit Monitor
         run: python reddit_monitor.py --cloud
+        timeout-minutes: 5
         continue-on-error: true
 
       - name: Run Upwork Monitor
         run: python upwork_monitor.py --cloud
+        timeout-minutes: 5
         continue-on-error: true
 
       - name: Run Money Daemon
