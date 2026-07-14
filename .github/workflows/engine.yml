@@ -23,7 +23,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install ddgs beautifulsoup4 requests edge-tts
+          pip install duckduckgo-search beautifulsoup4 requests edge-tts
 
       - name: Run YouTube Shorts Generator
         run: python youtube_shorts_generator.py --cloud
@@ -56,6 +56,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add prospects.csv email_sent_log.csv daemon_status.json reddit_leads.md upwork_proposals.md reddit_seen.json upwork_seen.json docs/ youtube_shorts/ || true
+          git add .
           git commit -m "Auto-update database and content" || echo "No changes to commit"
           git push
